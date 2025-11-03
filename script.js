@@ -1,4 +1,4 @@
-// aqui estão os links das suas abas da planilha
+console.log("JS carregou!");// aqui estão os links das suas abas da planilha
 const abas = {
   lista:  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSLs-DQkKOVGs2daPxrhRb_1a1u8a-X2AAgk0lQjqlKxOfxi58Gfqft1jsLL-taCTmr_DaFVz1o6EBz/pub?gid=0&single=true&output=csv",
   lista1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSLs-DQkKOVGs2daPxrhRb_1a1u8a-X2AAgk0lQjqlKxOfxi58Gfqft1jsLL-taCTmr_DaFVz1o6EBz/pub?gid=76847642&single=true&output=csv",
@@ -31,3 +31,4 @@ async function carregar(aba) {
     document.getElementById("lista").innerHTML = "<li>Erro ao carregar dados</li>";
   }
 }
+
